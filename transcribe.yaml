@@ -1,23 +1,23 @@
 prompt: |
-    Generate a transcript of this recording of a meeting. Include timestamps (hour, minute, and seconds) and identify speakers. So, if the file starts at 11:15AM, use the form:
+    Generate a transcript of this recording of the meeting. Include timestamps (hour, minute, and seconds) and identify speakers. So if the file starts at 11:15AM, use the form:
 
     [11:15:00] Brady: Hello there.
     [11:15:02] Tim: Hi Brady.
 
-    It is important to include the correct speaker names. If you don't know the speaker's name, identify them with a letter of the alphabet, eg there may be an unknown speaker 'A' and another unknown speaker 'B'.
+    It is important to include the correct speaker names. If you don't know the speaker's name, identify them with a letter of the alphabet, e.g., there may be an unknown speaker 'A' and another unknown speaker 'B'.
 
-    If there is some other sound (not speaking) playing try to identify the sound, eg:
+    If there is some other sound (not speaking) playing, try to identify the sound, e.g.:
     [11:18:00] [Bell ringing]
 
     If you cannot understand the audio, say something like:
 
     [11:20:25] [Unintelligible]
 
-    Each individual caption should be quite short, a few short sentences at most.
+    Each individual caption should be quite short—a few short sentences at most.
 
     Signify the end of the episode with [END].
 
-    Don't use any markdown formatting, like bolding or italics.
+    Do not use any markdown formatting, like bolding or italics.
 
     Only use characters from the English alphabet, unless you genuinely believe foreign characters are correct.
 
